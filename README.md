@@ -26,6 +26,8 @@ https://getbootstrap.com/docs/4.3/examples/album/
 ![alt text](result1.PNG)
 ![alt text](result2.PNG)
 
+(사진이 안나오는것 같은데 src/assets/images 파일에 result1.PNG, result2.PNG로 캡처화면 넣어놨습니다.)
+
 ## 구현 조건
 
 1. `components`, `assets`, `pages` 3개의 폴더로 구분하여 개발합니다.
