@@ -23,8 +23,8 @@ https://getbootstrap.com/docs/4.3/examples/album/
 
 (이곳에 구현한 이미지를 이곳에 첨부해주세요. 아래는 예시 이미지입니다.)
 
-![alt text](../result1.PNG)
-![alt text](../result2.PNG)
+![alt text](result1.PNG)
+![alt text](result2.PNG)
 
 ## 구현 조건
 
