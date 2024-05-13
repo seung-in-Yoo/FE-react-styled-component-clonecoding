@@ -23,7 +23,8 @@ https://getbootstrap.com/docs/4.3/examples/album/
 
 (이곳에 구현한 이미지를 이곳에 첨부해주세요. 아래는 예시 이미지입니다.)
 
-![](https://velog.velcdn.com/images/wuzoo/post/509d4112-3edb-482d-82cb-89edf105a060/image.png)
+![alt text](../result1.PNG)
+![alt text](../result2.PNG)
 
 ## 구현 조건
 
@@ -34,5 +35,13 @@ https://getbootstrap.com/docs/4.3/examples/album/
 ## 컴포넌트 계층 구조
 
 주된 컴포넌트인 헤더, 푸터, 포토카드(사진과 글이 있는 것), 버튼에 대해 어떤 계층으로 설계했는지 이곳에 작성해주세요. 그리고 자식 컴포넌트 들에 대해서 어떤 의도를 갖고 설계했는지(ex 정렬하기 위해서, border를 주기 위해서 등) 부담없이 간단하게 적으면 됩니다. (아래는 예시입니다.)
+
+Header 부분: 페이지를 내려도 바가 고정될수 있게 fixed로 고정시키고 src 이미지를 통해 카메라와 메뉴바를 가져왔습니다. 그리고 margin padding width height를 통해 카메라,글씨,메뉴 바가 내가 원하는 위치에 오도록 하였습니다. (카메라 부분에 background-color:white를 써서 카메라 색을 바꿨는데 이미지 크기만큼 네모난 배경 전부 흰색으로 바껴서,, 그래서 color:white로 했는데 이건 또 색이 바뀌지 않아서 일단 저런식으로 해놨습니다)
+
+Center 부분: texttitle,textmain,button 부분으로 구성하였고 모두 원하는 위치로 갈수있도록 값들을 설정하였고 (이 과정에서 title 부분의 margin padding 값을 설정해주고 textmain 부분의 margin padding을 바꿔주면 title 부분의 위치도 바껴서 적절한 위치를 가져오는데 시간이 많이 소요됐습니다,, 3부분 중에서 어느 부분의 위치를 설정해주는 과정에서 계속 위치가 조금씩 바껴서 애를 먹었네요)
+
+Card 부분: 진짜 이 부분이 너무 어려웠고 아직도 미완성입니다.... 처음에는 너무 막막해서 그냥 하나의 카드의 모든 구성을 끝내놓고 9개를 다 똑같이 넣을까 고민했지만 이건 코드가 너무 길어질거 같아서 포기했고, carddata를 받아서 map 함수를 통해 id를 바꿔가며 9개의 카드 데이터들을 가져왔는데 이렇게 하는것이 훨씬 효율적이였던 같습니다. (근데 진짜 아무리 margin padding 값을 바꿔봐도 양쪽 카드의 간격이 제가 원하는대로 바뀌지 않아서 ㅠㅠ 그렇다고 width 값을 줄이자니 그러면 카드가 3개가 아니고 4개 5개씩 올라와서 적절한 위치를 결국 찾지 못하였습니다. 클론코딩인데 생각보다 너무 다르게 나온것 같아서 좀 속상했습니다,, 이 부분은 빠른 시일내로 다시 수정해보겠습니다.)
+
+
 
 ![](https://velog.velcdn.com/images/wuzoo/post/ab092dd4-595e-41ab-a850-85cab0c83e80/image.png)
